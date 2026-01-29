@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lessons - Steve Guitar Tuition</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <img src="assets/logo.png" alt="Steve Guitar Tuition" class="logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="lessons.html">Lessons</a>
+    <a href="practice.html">Practice Tools</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main style="padding:40px;">
+  <h1>Guitar Lessons</h1>
+  <p>Browse through structured guitar tutorials covering chords, scales, rhythm, and lead techniques.</p>
+
+  <section id="beginner" class="lesson-detail">
+    <h2>Beginner Chords</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2K6K2YVxFzE" title="Beginner Chords Lesson" frameborder="0" allowfullscreen></iframe>
+    <p>This lesson focuses on mastering C, G, D, and A major chords, transitioning smoothly between them, and keeping time with a metronome.</p>
+    <a href="assets/sample-tab.pdf" class="btn small" download>Download TAB</a>
+  </section>
+
+  <section id="blues" class="lesson-detail">
+    <h2>12-Bar Blues Rhythm</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qCjpXfaJxkE" title="12-Bar Blues Lesson" frameborder="0" allowfullscreen></iframe>
+    <p>Learn how to play a classic blues shuffle rhythm in E. Ideal for practicing timing, groove, and right-hand technique.</p>
+    <a href="assets/sample-tab.pdf" class="btn small" download>Download TAB</a>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Steve Guitar Tuition — All rights reserved</p>
+</footer>
+
+</body>
+</html>

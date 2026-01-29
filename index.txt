@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steve Guitar Tuition</title>
+
+  <!-- Your existing stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- ONLY hero image styles (nothing else changed) -->
+ <style>
+  .hero {
+    position: relative;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;     /* FULL image, NO cropping */
+    object-position: center;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .hero > *:not(.hero-bg) {
+    position: relative;
+    z-index: 1;
+  }
+</style>
+
+</head>
+
+<body>
+
+<header class="site-header">
+  <img src="assets/logo.png" alt="Steve Guitar Tuition" class="logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="lessons.html">Lessons</a>
+    <a href="practice.html">Practice Tools</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+  <img src="SteveLogoPic.gif" alt="" class="hero-bg">
+  <h1>Welcome to Steve Guitar Tuition</h1>
+  <p>
+    Learn guitar your way — from beginner chords to advanced styles,
+    guided by expert lessons and interactive materials.
+  </p>
+  <a href="lessons.html" class="btn">Start Learning</a>
+</section>
+
+  <section class="featured-lessons">
+    <h2>Featured Lessons</h2>
+
+    <div class="lesson-grid">
+      <div class="lesson-card">
+        <img src="assets/thumbnail1.jpg" alt="Beginner Chords">
+        <h3>Beginner Chords</h3>
+        <p>Master essential open chords and develop smooth chord changes.</p>
+        <a href="lessons.html#beginner" class="btn small">View Lesson</a>
+      </div>
+
+      <div class="lesson-card">
+        <img src="assets/thumbnail2.jpg" alt="Blues Rhythm">
+        <h3>12-Bar Blues Rhythm</h3>
+        <p>Learn the timeless 12-bar blues groove with rhythm and feel.</p>
+        <a href="lessons.html#blues" class="btn small">View Lesson</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Steve Guitar Tuition — All rights reserved</p>
+</footer>
+
+</body>
+</html>

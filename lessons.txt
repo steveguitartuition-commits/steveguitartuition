@@ -25,7 +25,7 @@
 
   <section id="beginner" class="lesson-detail">
     <h2>Beginner Chords</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2K6K2YVxFzE" title="Beginner Chords Lesson" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://youtu.be/S37Rsrg3ErY?si=zfDIv1jNa7mjMGqQ" title="Beginner Chords Lesson" frameborder="0" allowfullscreen></iframe>
     <p>This lesson focuses on mastering C, G, D, and A major chords, transitioning smoothly between them, and keeping time with a metronome.</p>
     <a href="assets/sample-tab.pdf" class="btn small" download>Download TAB</a>
   </section>

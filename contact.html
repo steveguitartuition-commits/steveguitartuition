@@ -43,37 +43,14 @@
   <h1>Contact Steve</h1>
   <p>Have a question or want to book a lesson? Send me a message below!</p>
 
-  <!-- ✅ NETLIFY FORM FIXED (DO NOT CHANGE STRUCTURE) -->
   <form
-    class="contact-form"
-    name="contact"
-    method="POST"
-    data-netlify="true"
-    data-netlify-honeypot="bot-field"
-  >
-
-    <!-- REQUIRED for Netlify -->
-    <input type="hidden" name="form-name" value="contact">
-
-    <!-- Honeypot spam protection -->
-    <p hidden>
-      <label>
-        Don’t fill this out:
-        <input name="bot-field">
-      </label>
-    </p>
-
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-
-    <button type="submit" class="btn">Send Message</button>
-  </form>
+  class="contact-form"
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  data-netlify-honeypot="bot-field"
+  action="/thank-you.html"
+>
 
 </main>
 

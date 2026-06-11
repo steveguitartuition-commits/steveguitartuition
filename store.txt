@@ -50,6 +50,20 @@
 
   <!-- PRIMARY BOOK -->
   <h2>Books by This Author</h2>
+<section class="product-grid">
+    <article class="product-card">
+      <a href="https://www.amazon.com/dp/B0H44G1C8L"
+         target="_blank" rel="noopener">
+        <img src="assets/products/Book Cover.jpg"
+             alt="Mastering Triads For Guitar book cover">
+      </a>
+      <h3>Mastering Triads For Guitar</h3>
+      <a class="buy-button" href="https://www.amazon.com/dp/B0H44G1C8L"
+         target="_blank" rel="noopener">Buy on Amazon (USA)</a>
+    </article>
+  </section>
+
+
   <section class="product-grid">
     <article class="product-card">
       <a href="https://www.amazon.com/Before-You-Start-Playing-Guitar/dp/B09SP8JN8N/"

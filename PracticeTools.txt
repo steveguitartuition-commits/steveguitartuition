@@ -89,20 +89,7 @@
     </div>
 
 
-  <h1>A way to train the ear to hear different keys</h1>
-  <p>Choose between major or minor keys with lots of genres</p>
-
-
-    <div class="video-wrapper">
-      <iframe
-        src="https://sonofield.com/apps/key-seeker"
-        title="Key Seeker 64"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-    </div>
-
+  
 <footer>
   <p>© 2025 Steve Guitar Tuition — All rights reserved</p>
 </footer>
